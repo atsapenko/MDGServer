@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'NokiaPureText';
-  src: url(../fonts/NokiaPureText/nokiapuretext-webfont.eot);
+  src: url(/resources/fonts/NokiaPureText/nokiapuretext-webfont.eot);
   src: url(/resources/fonts/NokiaPureText/nokiapuretext-webfont.woff) format('woff');
   src: url(/resources/fonts/NokiaPureText/nokiapuretext-webfont.svg) format('svg');
   src: url(/resources/fonts/NokiaPureText/nokiapuretext-webfont.ttf) format('truetype');
@@ -618,7 +618,7 @@ p {
   background-color: #fff;
 }
 #register section form input[name="phone"] {
-  background-image: url(../icons/plus-gray-16px.png);
+  background-image: url(/resources/icons/plus-gray-16px.png);
   background-position: 6px center;
   background-repeat: no-repeat;
   background-size: 12px;
@@ -635,7 +635,6 @@ p {
   margin-left: 4px;
   background-color: #FFF;
   list-style: none;
-  padding: 2px;
   outline: none;
   border-radius: 4px;
   z-index: 10;
@@ -643,6 +642,9 @@ p {
   height: 200px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+.results li {
+  padding-left: 5px;
 }
 .results li:hover {
   background-color: #f0f0f0;
